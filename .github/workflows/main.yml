@@ -1,5 +1,5 @@
 on: push
-name: Publish Website over FTPS
+name: Push to server
 jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
