@@ -17,4 +17,9 @@ if (isset($_GET['echo'])) {
   header("Location: " . $asset_url);
 }
 
+// Todo:
+// Logic if no image is found - serve error image
+// htaccess redirect for cleaner url parameters
+// flag to serve image directly (allows caching?)
+
 ?>
