@@ -12,7 +12,7 @@ foreach($dom_obj->getElementsByTagName('meta') as $meta) {
 }
 
 if (isset($_GET['echo'])) {
-  echo $asset_url;
+  echo $asset_url . "FTP test";
 } else {
   header("Location: " . $asset_url);
 }
