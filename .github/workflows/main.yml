@@ -12,5 +12,6 @@ jobs:
         host: ${{ secrets.FTP_SERVER }}
         user: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        localDir: "/"
-        remoteDir: "/html/og-image/"
+        localDir: ""
+        remoteDir: "html/og-image/"
+        forceSsl: false
