@@ -12,6 +12,8 @@ foreach($dom_obj->getElementsByTagName('meta') as $meta) {
 }
 
 if (isset($_GET['echo'])) {
+  header('Content-Type: application/json');
+  header('Access-Control-Allow-Origin: *');
   echo $asset_url;
 } else {
   header("Location: " . $asset_url);
